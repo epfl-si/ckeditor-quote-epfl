@@ -21,8 +21,12 @@ Release
 -------
 
 1. Bump the correct version (`npm version [<newversion> | major | minor | patch]`)
-1. Update the file [CHANGELOG.md](CHANGELOG.md)
-1. Create the tag (`git tag -a v<version> -m "ckeditor-quote-epfl - <version>"`)
+
+2. Update the file [CHANGELOG.md](CHANGELOG.md)
+
+3. Create a tag
+`git tag -a v<version> -m "ckeditor-quote-epfl - <version>"`
+`git push origin master --tags`
 
 License
 -------
