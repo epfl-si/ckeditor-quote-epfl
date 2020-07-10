@@ -1,0 +1,24 @@
+{
+  "name": "ckeditor-quote-epfl",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Customization for the CKEditor image2 plugin",
+  "author": "Lindo Duratti <lindo.duratti@hotmail.com>",
+  "license": "MIT",
+  "repository": "epfl-si/ckeditor-quote-epfl",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {}
+}
