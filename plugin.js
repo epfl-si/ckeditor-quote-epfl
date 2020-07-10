@@ -82,7 +82,7 @@
           el.children[0].setHtml(this.editables.quote.getData());
 
           if (!el.children[0].getHtml().trim()) {
-            return new CKEDITOR.htmlParser.text('');
+            return new CKEDITOR.htmlParser.text('');  /* eslint-disable-line */
           }
 
           // Caption
