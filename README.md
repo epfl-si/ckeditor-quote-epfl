@@ -35,7 +35,7 @@ Usage
 Add this repository as a git submodule in the CKEditor plugins folder:
 
 ```bash
-git submodule add git@github.com:epfl-si/ckeditor-quote-epfl.git src/static/ckeditor/ckeditor/plugins
+git submodule add git@github.com:epfl-si/ckeditor-quote-epfl.git src/static/ckeditor/ckeditor/plugins/quoteepfl
 ```
 
 Contributing
