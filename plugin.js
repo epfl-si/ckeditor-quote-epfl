@@ -54,7 +54,7 @@
             requiredClasses: { 'blockquote-footer': true }
           }
         },
-        requiredContent: 'blockquote(quote)',
+        requiredContent: 'blockquote(blockquote)',
         upcast: function (el) {
           if (el.name !== 'blockquote' || !el.hasClass('blockquote')) {
             return false;
