@@ -1,18 +1,18 @@
 ckeditor-quote-epfl
-=============================
+===================
 
 [![Build Status][travis-image]][travis-url]
 [![Dependencies Status][daviddm-image]][daviddm-url]
 [![GitHub Tag][tag-image]][tag-url]
 
-Customization for CKEditor quote plugin.
+CKEditor quote plugin.
 
 Resume
 ------
 
-This widget can be used as an alternative to the [Blockquote Plugin](https://ckeditor.com/cke4/addon/blockquote). It follows the EPFL style guide for *quote* element (see [WHATWG](https://epfl-si.github.io/elements/#/molecules/quote)). 
+This widget can be used as an alternative to the [Blockquote Plugin](https://ckeditor.com/cke4/addon/blockquote). It follows the EPFL style guide for *quote* element (see [quote EPFL guidelines](https://epfl-si.github.io/elements/#/molecules/quote)). 
 
-So the resulting HTML will be 
+So the resulting HTML will be:
 
     <blockquote class="blockquote">
         <p>
@@ -23,7 +23,7 @@ So the resulting HTML will be
         </footer>
     </blockquote>
 
-If the caption is empty, the blockquote element will just be
+If the caption is empty, the blockquote element will just be:
 
     <blockquote>
         ...
@@ -37,6 +37,14 @@ Add this repository as a git submodule in the CKEditor plugins folder:
 ```bash
 git submodule add git@github.com:epfl-si/ckeditor-quote-epfl.git src/static/ckeditor/ckeditor/plugins/quoteepfl
 ```
+
+Add the plugin to CKEditor config file:
+
+```js
+config.extraPlugins = 'quoteepfl';
+```
+
+Dependencies: API, Widget
 
 Contributing
 ------------
