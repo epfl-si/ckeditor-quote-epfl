@@ -2,7 +2,7 @@
   "name": "ckeditor-quote-epfl",
   "private": true,
   "version": "1.0.0",
-  "description": "Customization for the CKEditor image2 plugin",
+  "description": "CKEditor quote plugin",
   "author": "Lindo Duratti <lindo.duratti@hotmail.com>",
   "license": "MIT",
   "repository": "epfl-si/ckeditor-quote-epfl",
