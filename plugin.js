@@ -108,15 +108,15 @@
         '}' +
         'blockquote.blockquote p::before {' +
           'content: "\\201C";' +
-          'padding-right: .2rem;' + 
-        '}' +        
+          'padding-right: .2rem;' +
+        '}' +
         'blockquote.blockquote p::after {' +
           'content: "\\201D";' +
-          'padding-left: .2rem;' + 
+          'padding-left: .2rem;' +
         '}' +
         'blockquote.blockquote footer {' +
           'margin-top: 0.72rem;' +
-          'font-style: normal;' +  
+          'font-style: normal;' +
           'font-size: .83rem;' +
           'color: #707070;' +
         '}' +
