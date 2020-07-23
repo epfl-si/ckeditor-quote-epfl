@@ -99,7 +99,7 @@
         'blockquote.blockquote {' +
           'padding-left: 1.66rem;' +
           'border-left: 1px solid #d5d5d5;' +
-          'font-size: 1.5rem;' +
+          'font-size: 17px;' +
           'margin-bottom: 2.5rem;' +
           'margin-top: 2.5rem;' +
         '}' +
@@ -120,7 +120,7 @@
         'blockquote.blockquote footer {' +
           'margin-top: 0.72rem;' +
           'font-style: normal;' +
-          'font-size: .83rem;' +
+          'font-size: 13px;' +
           'color: #707070;' +
         '}' +
         'blockquote.blockquote footer::before {' +
