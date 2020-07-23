@@ -114,6 +114,9 @@
           'content: "\\201D";' +
           'padding-left: .2rem;' +
         '}' +
+        'blockquote.blockquote p.cke_widget_editable {' +
+          'margin: 0;' +
+        '}' +
         'blockquote.blockquote footer {' +
           'margin-top: 0.72rem;' +
           'font-style: normal;' +
