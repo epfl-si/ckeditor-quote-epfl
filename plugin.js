@@ -64,12 +64,12 @@
           var fig = el;
 
           if (fig.children.length < 1 || fig.children[0].name !== 'p') {
-            fig.add(new CKEDITOR.htmlParser.element('p'), 0);  /* eslint-disable-line */
+            fig.add(new CKEDITOR.htmlParser.element('p'), 0);
           }
 
           // Footer
           if (fig.children.length < 2 || fig.children[1].name !== 'footer') {
-            fig.add(new CKEDITOR.htmlParser.element('footer'), 1);  /* eslint-disable-line */
+            fig.add(new CKEDITOR.htmlParser.element('footer'), 1);
           }
 
           fig.children = fig.children.slice(0, 2);
@@ -82,7 +82,7 @@
           el.children[0].setHtml(this.editables.quote.getData());
 
           if (!el.children[0].getHtml().trim()) {
-            return new CKEDITOR.htmlParser.text('');  /* eslint-disable-line */
+            return new CKEDITOR.htmlParser.text('');
           }
 
           // Caption
@@ -96,10 +96,36 @@
     },
     onLoad: function () {
       CKEDITOR.addCss(
-        'blockquote.blockquote {line-height: 1.5rem;margin: 0 0 1.5rem;text-align: center;border: 0.0625rem solid #ddd;border-radius: 0.5rem;}' +  /* eslint-disable-line */
-        'blockquote.blockquote p {padding: 2.25rem 0.75rem 0.75rem;color: #333;background: #f8f8f7;}' +  /* eslint-disable-line */
-        'blockquote.blockquote footer {font-size: 0.875rem;background: #eee;}' +  /* eslint-disable-line */
-        'blockquote.blockquote .cke_widget_editable {outline: none !important;}'  /* eslint-disable-line */
+        'blockquote.blockquote {' +
+          'padding-left: 1.66rem;' +
+          'border-left: 1px solid #d5d5d5;' +
+          'font-size: 17px;' +
+          'margin-bottom: 2.5rem;' +
+          'margin-top: 2.5rem;' +
+        '}' +
+        'blockquote.blockquote p {' +
+          'line-height: 1.3em;' +
+        '}' +
+        'blockquote.blockquote p::before {' +
+          'content: "\\201C";' +
+          'padding-right: .2rem;' +
+        '}' +
+        'blockquote.blockquote p::after {' +
+          'content: "\\201D";' +
+          'padding-left: .2rem;' +
+        '}' +
+        'blockquote.blockquote p.cke_widget_editable {' +
+          'margin: 0;' +
+        '}' +
+        'blockquote.blockquote footer {' +
+          'margin-top: 0.72rem;' +
+          'font-style: normal;' +
+          'font-size: 13px;' +
+          'color: #707070;' +
+        '}' +
+        'blockquote.blockquote footer::before {' +
+          'content: "\\2014 \\00A0";' +
+        '}'
       );
     }
   });
