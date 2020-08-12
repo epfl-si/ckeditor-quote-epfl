@@ -24,8 +24,8 @@ Release
 
 2. Update the file [CHANGELOG.md](CHANGELOG.md)
 
-3. Create a tag..
-`git tag -a v<version> -m "ckeditor-quote-epfl - <version>"`..
+3. Create a tag  
+`git tag -a v<version> -m "ckeditor-quote-epfl - <version>"`  
 `git push origin master --tags`
 
 License
