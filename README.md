@@ -10,7 +10,7 @@ CKEditor quote plugin.
 Resume
 ------
 
-This widget can be used as an alternative to the [Blockquote Plugin](https://ckeditor.com/cke4/addon/blockquote). It follows the EPFL style guide for *quote* element (see [quote EPFL guidelines](https://epfl-si.github.io/elements/#/molecules/quote)). 
+This widget is a derivative of the [Ayhan Akilli quote plugin](https://ckeditor.com/cke4/addon/quote) and can be used as an alternative to the [Blockquote Plugin](https://ckeditor.com/cke4/addon/blockquote). It follows the EPFL style guide for *quote* element (see [quote EPFL guidelines](https://epfl-si.github.io/elements/#/molecules/quote)).
 
 So the resulting HTML will be:
 
