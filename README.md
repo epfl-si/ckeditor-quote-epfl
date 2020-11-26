@@ -63,8 +63,8 @@ The MIT License
 
 Copyright (c) 2020 ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI.
 
-[github-actions-image]: https://github.com/epfl-si/ckeditor-image2-customization/workflows/Build/badge.svg
-[github-actions-url]: https://github.com/epfl-si/ckeditor-image2-customization/actions
+[github-actions-image]: https://github.com/epfl-si/ckeditor-quote-epfl/workflows/Build/badge.svg
+[github-actions-url]: https://github.com/epfl-si/ckeditor-quote-epfl/actions
 [daviddm-image]: https://david-dm.org/epfl-si/ckeditor-quote-epfl/status.svg
 [daviddm-url]: https://david-dm.org/epfl-si/ckeditor-quote-epfl
 [tag-image]: https://img.shields.io/github/tag/epfl-si/ckeditor-quote-epfl.svg
