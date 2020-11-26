@@ -1,7 +1,7 @@
 ckeditor-quote-epfl
 ===================
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status][github-actions-image]][github-actions-url]
 [![Dependencies Status][daviddm-image]][daviddm-url]
 [![GitHub Tag][tag-image]][tag-url]
 
@@ -63,8 +63,8 @@ The MIT License
 
 Copyright (c) 2020 ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI.
 
-[travis-image]: https://travis-ci.org/epfl-si/ckeditor-quote-epfl.svg?branch=master
-[travis-url]: https://travis-ci.org/epfl-si/ckeditor-quote-epfl
+[github-actions-image]: https://github.com/epfl-si/ckeditor-quote-epfl/workflows/Build/badge.svg
+[github-actions-url]: https://github.com/epfl-si/ckeditor-quote-epfl/actions
 [daviddm-image]: https://david-dm.org/epfl-si/ckeditor-quote-epfl/status.svg
 [daviddm-url]: https://david-dm.org/epfl-si/ckeditor-quote-epfl
 [tag-image]: https://img.shields.io/github/tag/epfl-si/ckeditor-quote-epfl.svg
