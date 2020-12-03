@@ -96,7 +96,6 @@
             el.children[1].remove();
           }
           return el;
-          /*return !el.children[1].getHtml().trim() ? el.children[0] : el;*/
         }
       });
     },
