@@ -92,7 +92,10 @@
           el.children[1].addClass('blockquote-footer');
           el.children[1].setHtml(this.editables.caption.getData());
 
-          return !el.children[1].getHtml().trim() ? el.children[0] : el;
+          if (!el.children[1].getHtml().trim()) {
+            el.children[1].remove();
+          }
+          return el;
         }
       });
     },
