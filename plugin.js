@@ -79,7 +79,7 @@
           return fig;
         },
         downcast: function (el) {
-          // Quote + p
+          // Blockquote + p
           el.children[0].attributes = [];
           el.children[0].setHtml(this.editables.quote.getData());
 
@@ -87,7 +87,7 @@
             return new CKEDITOR.htmlParser.text('');
           }
 
-          // Caption
+          // Footer
           el.children[1].attributes = [];
           el.children[1].addClass('blockquote-footer');
           el.children[1].setHtml(this.editables.caption.getData());
