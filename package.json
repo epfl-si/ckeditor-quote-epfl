@@ -1,7 +1,7 @@
 {
   "name": "ckeditor-quote-epfl",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "CKEditor quote plugin",
   "author": "Lindo Duratti <lindo.duratti@hotmail.com>",
   "license": "MIT",
