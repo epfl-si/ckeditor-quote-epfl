@@ -12,7 +12,7 @@
    * Plugin
    */
   CKEDITOR.plugins.add('quoteepfl', {
-    requires: 'api,widget',
+    requires: 'widget',
     icons: 'quoteepfl',
     hidpi: true,
     lang: 'de,en,fr',
