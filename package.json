@@ -7,17 +7,16 @@
   "license": "MIT",
   "repository": "epfl-si/ckeditor-quote-epfl",
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
     "test": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^7.14.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1"
-  },
-  "dependencies": {}
+    "eslint-plugin-promise": "^6.1.1"
+  }
 }
