@@ -1,6 +1,12 @@
 Changelog
 =========
 
+### v1.1.2 / 2023-01-30
+
+  - Remove unused api module requirement
+  - Update GitHub Actions
+  - Update dev dependencies
+
 ### v1.1.1 / 2020-12-07
 
   - Unify comments in `plugin.js`
