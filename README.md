@@ -2,7 +2,6 @@ ckeditor-quote-epfl
 ===================
 
 [![Build Status][github-actions-image]][github-actions-url]
-[![Dependencies Status][daviddm-image]][daviddm-url]
 [![GitHub Tag][tag-image]][tag-url]
 
 CKEditor quote plugin.
@@ -44,7 +43,7 @@ Add the plugin to CKEditor config file:
 config.extraPlugins = 'quoteepfl';
 ```
 
-Dependencies: API, Widget
+Dependencies: Widget
 
 Contributing
 ------------
@@ -65,7 +64,5 @@ Copyright (c) 2020 ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI.
 
 [github-actions-image]: https://github.com/epfl-si/ckeditor-quote-epfl/workflows/Build/badge.svg
 [github-actions-url]: https://github.com/epfl-si/ckeditor-quote-epfl/actions
-[daviddm-image]: https://david-dm.org/epfl-si/ckeditor-quote-epfl/status.svg
-[daviddm-url]: https://david-dm.org/epfl-si/ckeditor-quote-epfl
 [tag-image]: https://img.shields.io/github/tag/epfl-si/ckeditor-quote-epfl.svg
 [tag-url]: https://github.com/epfl-si/ckeditor-quote-epfl/tags
