@@ -1,6 +1,11 @@
 Changelog
 =========
 
+### v1.1.3 / 2023-02-01
+
+  - README: remove unused api module requirement
+  - README: remove daviddm dependency badge
+
 ### v1.1.2 / 2023-01-30
 
   - Remove unused api module requirement
